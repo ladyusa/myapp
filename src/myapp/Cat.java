@@ -1,8 +1,6 @@
 package myapp;
 
-import java.io.Serializable;
-
-public class Cat implements Serializable {
+public class Cat extends Dog {
     private String name;
     private int age;
 }
